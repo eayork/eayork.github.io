@@ -15,6 +15,6 @@ cp -r _site/* ../eayork.github.io
 cd ../eayork.github.io
 git add -A
 git commit -m 'updating site'
-git push origin master
+git push -f origin master
 
 echo "finished building site" 
